@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Component
-public class ProdctDaoImpl implements ProdctDao {
+public class ProductDaoImpl implements ProdctDao {
 
 @Autowired
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;

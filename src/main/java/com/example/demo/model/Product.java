@@ -10,23 +10,23 @@ public class Product {
     private Integer price;
     private Integer stock;
     private String description;
-    private Date createddate;
-    private Date lastmodifieddate;
+    private Date createdDate;
+    private Date lastModifieddate;
 
-    public Date getLastmodifieddate() {
-        return lastmodifieddate;
+    public Date getLastModifieddate() {
+        return lastModifieddate;
     }
 
-    public void setLastmodifieddate(Date lastmodifieddate) {
-        this.lastmodifieddate = lastmodifieddate;
+    public void setLastModifieddate(Date lastModifieddate) {
+        this.lastModifieddate = lastModifieddate;
     }
 
-    public Date getCreateddate() {
-        return createddate;
+    public Date getCreatedDate() {
+        return createdDate;
     }
 
-    public void setCreateddate(Date createddate) {
-        this.createddate = createddate;
+    public void setCreatedDate(Date createdDate) {
+        this.createdDate = createdDate;
     }
 
     public String getDescription() {
@@ -37,28 +37,12 @@ public class Product {
         this.description = description;
     }
 
-    public Integer getProductId() {
-        return productId;
+    public Integer getStock() {
+        return stock;
     }
 
-    public void setProductId(Integer productId) {
-        this.productId = productId;
-    }
-
-    public String getProductName() {
-        return productName;
-    }
-
-    public void setProductName(String productName) {
-        this.productName = productName;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
+    public void setStock(Integer stock) {
+        this.stock = stock;
     }
 
     public Integer getPrice() {
@@ -77,11 +61,29 @@ public class Product {
         this.image_url = image_url;
     }
 
-    public Integer getStock() {
-        return stock;
+    public String getCategory() {
+        return category;
     }
 
-    public void setStock(Integer stock) {
-        this.stock = stock;
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public Integer getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Integer productId) {
+        this.productId = productId;
     }
 }
+
+
