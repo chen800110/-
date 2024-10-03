@@ -2,6 +2,6 @@ package com.example.demo.dao;
 
 import com.example.demo.model.Product;
 
-public interface ProdctDao {
+public interface ProductDao {
     Product getProductById(Integer productId);
 }

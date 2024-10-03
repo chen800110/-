@@ -13,11 +13,11 @@ public class ProductRowMapper implements RowMapper<Product> {
         product.setProductId(resultSet.getInt("product_id"));
         product.setProductName(resultSet.getString("product_name"));
         product.setCategory(resultSet.getString("category"));
-        product.setImage_url(resultSet.getString("image_url"));
+        product.setImageUrl(resultSet.getString("image_url"));
         product.setPrice(resultSet.getInt("price"));
         product.setDescription(resultSet.getString("description"));
         product.setCreatedDate(resultSet.getTimestamp("createddate"));
-        product.setLastModifieddate(resultSet.getTimestamp("lastmodifieddate"));
+        product.setLastModifiedDate(resultSet.getTimestamp("lastmodifieddate"));
         return product;
 
 
